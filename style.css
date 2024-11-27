@@ -1,0 +1,43 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: blanchedalmond;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    text-align: center;
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+h1{
+    color: black;
+}
+button{
+    background-color: aqua;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor:pointer;
+    font-size: 16px;
+}
+button:hover{
+background-color: blueviolet
+}
+
+.result{
+    margin-top: 20px;
+    padding: 15px;
+    background-color: bisque;
+    border-radius: 5px;
+    text-align: left;
+    font-family: fantasy;
+    white-space: pre-wrap;
+    
+}
